@@ -20,14 +20,6 @@ from TestApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-<<<<<<< HEAD
-<<<<<<< HEAD
     path('pycharm/', views.home, name='home'),
-=======
-    path('pycharm', views.home, name='home'),
->>>>>>> e7a70893256a6d150762948c91c9249eb8ac51ca
-=======
-    path('pycharm', views.home, name='home'),
->>>>>>> e7a70893256a6d150762948c91c9249eb8ac51ca
     path('app/', include('TestApp.urls')),
 ]
